@@ -72,17 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(
               height: 8,
             ),
-            Container(
-              padding: const EdgeInsets.all(8),
-              color: Colors.lightGreen,
-              child: Text(
-                widget.quoteModel.tags[0].toString(),
-                style: const TextStyle(
-                    fontSize: 30,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white),
-              ),
-            ),
+
             const Spacer(),
           ],
         ),
